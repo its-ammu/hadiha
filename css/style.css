@@ -22,6 +22,7 @@
 }
 
 .navbar .active {
+  padding-bottom: 0 !important;
   background-color: beige;
   border: 3px solid #f5c62a;
   border-style: outset;
@@ -29,12 +30,13 @@
 }
 
 .nav-item {
-  padding: 3px;
+  padding: 0.1rem .3rem;
+  padding-top: 0.17rem !important;
   border-radius: 12px;
 }
 
 .d-block {
-  height: 89vh;
+  height: 92vh;
 }
 
 .card-img-top {
